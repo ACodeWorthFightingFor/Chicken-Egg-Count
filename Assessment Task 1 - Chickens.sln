@@ -1,25 +1,24 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.9.34622.214
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assessment Task 1 - Chickens", "Assessment Task 1 - Chickens\Assessment Task 1 - Chickens.csproj", "{91E04994-4E48-4FC5-BA36-84CA60981D4D}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{91E04994-4E48-4FC5-BA36-84CA60981D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91E04994-4E48-4FC5-BA36-84CA60981D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91E04994-4E48-4FC5-BA36-84CA60981D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91E04994-4E48-4FC5-BA36-84CA60981D4D}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5E392BF6-B626-4916-882D-08497B34C86C}
-	EndGlobalSection
-EndGlobal
+using System;
+
+namespace Q1
+{
+    public class Q1
+    {
+        static void Main()
+        {
+            // Keep the following line intact 
+            Console.WriteLine("===========================");
+
+            // Insert your solution here.
+            Console.WriteLine($"Enter the number of chickens:");
+
+            userinput = Console.ReadLine();
+
+            Console.WriteLine($"You have {userinput} chickens, don't be lazy and go check their eggs yourself.")
+
+
+            // Keep the following lines intact
+            Console.WriteLine("===========================");
+        }
+    }
+}
